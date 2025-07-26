@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FetchImage: View {
+struct FetchedImage: View {
   let url: URL?
 
   var body: some View {
@@ -24,5 +24,5 @@ struct FetchImage: View {
 }
 
 #Preview {
-  FetchImage(url: SamplePokemon.samplePokemon.sprite)
+  FetchedImage(url: SamplePokemon.samplePokemon.sprite)
 }
